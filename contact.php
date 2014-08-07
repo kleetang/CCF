@@ -15,6 +15,76 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <title>Simple styled maps</title>
+    <style>
+    html, body, #map-canvas {
+      height: 400px;
+      margin: 0px;
+      padding: 0px
+    }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+      var map;
+      var sbunion = new google.maps.LatLng(40.917281,-73.122368);
+
+      var MY_MAPTYPE_ID = 'custom_style';
+
+      function initialize() {
+
+        var featureOpts = [
+        {
+          stylers: [
+          { hue: '#9ec5f7' },
+          { visibility: 'simplified' },
+          { gamma: 0.5 },
+          { weight: 0.5 }
+          ]
+        },
+        {
+          elementType: 'labels',
+          stylers: [
+          { visibility: 'on' }
+          ]
+        },
+        {
+          featureType: 'water',
+          stylers: [
+          { color: '#9ec5f7' }
+          ]
+        }
+        ];
+
+        var mapOptions = {
+          zoom: 13,
+          center: sbunion,
+          mapTypeControlOptions: {
+            mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+          },
+          mapTypeId: MY_MAPTYPE_ID
+        };
+
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+          mapOptions);
+
+        var styledMapOptions = {
+          name: 'Custom Style'
+        };
+
+        var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+        map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+
+
+
   </head>
   <body>
     <!-- header -->
@@ -40,8 +110,11 @@
               </div>
           </div>
           <div class="row margin_26_10">
-            <div class="col-xs-12 content2">
+            <div class="col-xs-4 content2">
               <p>Coming Up Soon!</p>
+            </div>
+            <div class="col-xs-8">
+              <div id="map-canvas"></div>
             </div>
           </div>
         </div>

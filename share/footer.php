@@ -5,7 +5,7 @@
             <div class="row">
               <div class="email">
                 <a href="mailto:info@stonybrookccf.org">
-                  <p><img class="email-logo" src="img/email.png"/><u>Email: info@stonybrookccf.org</u></p>
+                  <p><img class="email-logo" src="img/email.png"/> <u>Email: info@stonybrookccf.org</u></p>
                 </a>
               </div>
             </div>

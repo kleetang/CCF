@@ -107,10 +107,8 @@
               <li><a href="contact.php">Contact Us</a></li>
             </ul>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 subnavbar">
-              </div>
+          <div class="row">
+            <div class="col-xs-12 subnavbar">
             </div>
           </div>
         </nav>
