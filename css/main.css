@@ -1,0 +1,62 @@
+.theme h3{
+	color: #144382;
+}
+
+#main-wrapper{
+	min-height: 600px;
+}
+
+.banner{
+	height: 365px;
+	/*background-color: yellow;*/
+	background-image: url('../img/123.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid #fff;
+}
+
+.welcome{
+	height: 365px;
+	background-color: #3076AF;
+	text-align: center;
+	color: #fff;
+	padding: 25px;
+	border: 1px solid #fff;
+	/*font-family: "黑體"；*/
+}
+
+.news{
+	height: 600px;
+	text-align: center;
+	/*background-color: red;*/
+	border: 1px solid #fff;
+
+}
+
+.event1{
+	border: 1px solid #9ec5f7;
+}
+.event1pic{
+	
+}
+.general{
+	min-height: 600px;
+	text-align: center;
+	/*font-family: "黑體"；*/
+	border: 1px solid #fff;
+}
+
+.theme{
+	margin: 0 0 2px 0;
+	border: 1px solid #9ec5f7;
+	padding: 0 10px;
+}
+.sundayservice{
+	border: 1px solid #9ec5f7;
+}
+
+.fellowship{
+	margin: 2px 0;
+	border: 1px solid #9ec5f7;
+}

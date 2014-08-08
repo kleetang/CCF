@@ -28,6 +28,14 @@
     <div id="main-wrapper">  
       <div id="main">
         <div class="container">
+          <!-- breadcrumb -->
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li class="active">Chaplain</li>
+            </ol>
+          </div>
           <div class="row">
               <div class="col-md-4">
                 <div class="title-background"><br></div>

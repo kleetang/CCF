@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Retreat退休會</title>
+    <title>CCF Retreat退休會</title>
     <link rel="icon" href="img/logo2.png" type="image/png">
     <!-- Bootstrap -->
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,11 +22,19 @@
       <?php 
         include("./share/head.php");
       ?>
+      
     </div>
     <!-- main -->
     <div id="main-wrapper">  
       <div id="main">
         <div class="container">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="index.php">Home</a></li>
+              <li><a href="events.php">Events</a></li>
+              <li class="active">Retreat</li>
+            </ol>
+          </div>
           <!-- title -->
           <div class="row">
               <div class="col-md-4">

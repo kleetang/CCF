@@ -52,6 +52,8 @@ ol li{
 
 .margin_26_10{margin: 26px 10px;}
 
+.margin_lr_0{margin:0;}
+.padding_lr_0{padding:0;}
 /*-------------header----------------------*/
 /*logo*/
 .logo{
@@ -223,6 +225,12 @@ ol li{
 /*=======================================navbar===============================================*/
 
 /*=======================================navbar end===============================================*/
+.breadcrumb{
+	background-color: inherit;
+	margin-bottom: 0;
+}
+
+
 
 .top-line{
 	margin-top: 30px;
@@ -249,7 +257,7 @@ ol li{
 }
 
 .title-background{
-	margin: 30px 26px 40px 26px;
+	margin: 30px 0 40px 0;
 	background-image: url('../img/title1.png');
 	background-repeat: repeat-x;
 }

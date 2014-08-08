@@ -28,7 +28,14 @@
     <div id="main-wrapper">  
       <div id="main">
         <div class="container">
-          
+          <!-- breadcrumb -->
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li class="active">Committee</li>
+            </ol>
+          </div>
           <div class="row">
               <div class="col-md-4">
                 <div class="title-background"><br></div>
@@ -227,9 +234,9 @@
                     <li>Retreat committee, </li>
                     <li>Gospel camp committee, </li>
                     <li>CCF magazine committee, </li>
-                    <li>Music team committee, and </li>
-                    <li>Caring team committee.</li>
-                    <li>Conference Committee  </li>
+                    <li>Music team committee,</li>
+                    <li>Caring team committee,</li>
+                    <li>Conference Committee.</li>
                   </ul>
                   <br>
                 </div>

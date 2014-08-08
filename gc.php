@@ -27,6 +27,14 @@
     <div id="main-wrapper">  
       <div id="main">
         <div class="container">
+          <!-- breadcrumb -->
+          <div class="row">
+            <ol class="breadcrumb">
+              <li><a href="index.php">Home</a></li>
+              <li><a href="events.php">Events</a></li>
+              <li class="active">GC</li>
+            </ol>
+          </div>
           <!-- title -->
           <div class="row">
               <div class="col-md-4">
