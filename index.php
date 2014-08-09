@@ -40,8 +40,39 @@
               <p><br>神愛世人，甚至將他的獨生子賜給他們，叫一切信他的，不致滅亡，反得永生。----<b>約翰福音 三章十六節</b></p>
             </div>
             <!-- news banner -->
-            <div class="col-md-8 banner">
+            <div class="col-md-8 banner padding_lr_0">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
 
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner banner-inner">
+                  <div class="item active">
+                    <a href="https://docs.google.com/forms/d/1oG7zGyPVJynxVsqZijS0kX0AoJMZPX3bapfL4MS7VY0/viewform"><img src="./img/retreat14.jpg" alt="Retreat 2014"></a>
+                    <div class="carousel-caption">
+                      
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="./img/teahouse14.jpg" alt="Tea House 2014">
+                    <div class="carousel-caption">
+                      
+                    </div>
+                  </div>
+                  ...
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>
             </div>
             
           </div>
@@ -59,7 +90,18 @@
                 <br>還可以一起包餃子吃 還有BBQ喔!
                 <br>希望到時候可以見到你! :)
                 <br>P.S. 大家吃好午餐再來喔，我们活动两点开始哟！大概进行到六、七点（包括晚餐哟！）~</p>
-                <div class="event1pic"></div>
+                <a href="https://www.facebook.com/events/539931859465977/"><div class="event1pic"></div></a>
+              </div>
+              <div class="event2">
+                <h3><a href="https://www.facebook.com/events/1464687103770922/"> ~展翅~ CCF Retreat 2014 </a></h3>
+                <p><b>主題經文: </b> 但那等候耶和華的必從新得力。他們必如鷹展翅上騰；他們奔跑卻不困倦，行走卻不疲乏。(以賽亞書第40章31節)</p>
+                <p>在忙碌的生活和學習中，我們可能會感覺到疲憊。藉着這次Retreat我們可以來放鬆一下，更重要的是我們可以親近我們的主，聆聽祂的話語，一齊讚美和崇拜祂。Tuscarora Inn & Conference Center也有很多各種各樣的休閒的室內室外活動。 LET'S COME JOIN OUR CCF RETREAT =D
+                <br><b>When: </b> 08/29/14-08/31/14
+                <br><b>Campsite: </b> Tuscarora Inn & Conference Center 
+                <br><b>Address: </b> 3300 River Rd, Mt Bethel, PA 18343
+                <br><b>Speaker: </b> 王頌恩弟兄
+                <br><a href="https://docs.google.com/forms/d/1oG7zGyPVJynxVsqZijS0kX0AoJMZPX3bapfL4MS7VY0/viewform">Registration Form</a></p>
+                <a href="https://docs.google.com/forms/d/1oG7zGyPVJynxVsqZijS0kX0AoJMZPX3bapfL4MS7VY0/viewform"><div class="event2pic"></div></a>
               </div>
             </div>
             <!-- welcome -->

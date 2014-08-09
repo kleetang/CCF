@@ -7,15 +7,21 @@
 }
 
 .banner{
-	height: 365px;
-	/*background-color: yellow;*/
-	background-image: url('../img/123.jpg');
+	max-height: 365px;
+	
+	border: 1px solid #fff;
+}
+.banner-inner{
+	max-height: 363px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border: 1px solid #fff;
 }
 
+.item{
+	height: 100%;
+	background-size: cover;
+}
 .welcome{
 	height: 365px;
 	background-color: #3076AF;
@@ -27,7 +33,7 @@
 }
 
 .news{
-	height: 600px;
+	min-height: 600px;
 	text-align: center;
 	/*background-color: red;*/
 	border: 1px solid #fff;
@@ -38,8 +44,23 @@
 	border: 1px solid #9ec5f7;
 }
 .event1pic{
-	
+	background-image: url('../img/summerevent.jpg');
+	height: 300px;
+	background-size: cover;
 }
+
+.event2{
+	margin-top: 1px;
+	border: 1px solid #9ec5f7;
+	/*padding: 20px;*/
+}
+.event2pic{
+	background-image: url('../img/retreat14.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+}
+
 .general{
 	min-height: 600px;
 	text-align: center;

@@ -127,11 +127,18 @@ ol li{
 	background-color: #9ec5f7;
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
-	background-color: inherit;
-    text-align: center;
-    position: relative;
-    max-width: 120px;
+	    /*display: block;*/
+		background-color: inherit;
+	    text-align: center;
+}
+@media (min-width: 768px){
+	.dropdown:hover .dropdown-menu {
+	    display: block;
+		background-color: inherit;
+	    text-align: center;
+	    position: relative;
+	    max-width: 120px;
+	}
 }
 .dropdown:hover a, .dropdown:focus a{
 	color: #144382;
@@ -146,9 +153,7 @@ ol li{
 	border: none;
 	box-shadow: none;
 }
-/*.dropdown-menu li{
-	float: left;
-}*/
+
 .dropdown-menu li>a{
 	padding: 4px 10px;
 }
